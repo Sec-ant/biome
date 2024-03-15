@@ -61,7 +61,7 @@ export default defineConfig({
 							link: "/guides/getting-started",
 							translations: {
 								ja: "はじめる",
-								"zh-CN": "入门",
+								"zh-CN": "入门指南",
 								"pt-BR": "Primeiros passos",
 							},
 						},
@@ -79,7 +79,7 @@ export default defineConfig({
 							link: "/guides/big-projects",
 							translations: {
 								ja: "大きなプロジェクトでのBiomeの使用方法",
-								"zh-CN": "大型项目中使用 Biome",
+								"zh-CN": "在大型项目中使用 Biome",
 								"pt-BR": "Usando o Biome em projetos grandes",
 							},
 						},
@@ -88,7 +88,7 @@ export default defineConfig({
 							link: "/guides/how-biome-works",
 							translations: {
 								ja: "Biome の振る舞い",
-								"zh-CN": "Biome 工作原理",
+								"zh-CN": "Biome 的工作原理",
 								"pt-BR": "Como o Biome funciona",
 							},
 						},
@@ -97,7 +97,7 @@ export default defineConfig({
 							link: "/guides/integrate-in-editor",
 							translations: {
 								ja: "Biome をあなたのエディタに導入する",
-								"zh-CN": "编辑器中使用 Biome",
+								"zh-CN": "Biome 与编辑器集成",
 								"pt-BR": "Integrando o Biome no seu editor",
 							},
 						},
@@ -105,7 +105,7 @@ export default defineConfig({
 							label: "Integrate Biome with your VCS",
 							link: "/guides/integrate-in-vcs",
 							translations: {
-								"zh-CN": "与版本控制系统集成",
+								"zh-CN": "Biome 与版本控制系统集成",
 								"pt-BR": "Integrando o Biome com o seu VCS",
 							},
 						},
@@ -188,6 +188,9 @@ export default defineConfig({
 								{
 									label: "Rules sources",
 									link: "/linter/rules-sources",
+									translations: {
+										"zh-CN": "规则源",
+									},
 								},
 							],
 						},
@@ -204,6 +207,9 @@ export default defineConfig({
 						{
 							label: "CLI",
 							link: "/reference/cli",
+							translations: {
+								"zh-CN": "命令行界面",
+							},
 						},
 						{
 							label: "Configuration",
@@ -241,6 +247,10 @@ export default defineConfig({
 						{
 							label: "Git Hooks",
 							link: "/recipes/git-hooks",
+							translations: {
+								"zh-CN": "Git 钩子",
+							},
+							badge: "New",
 						},
 					],
 				},
