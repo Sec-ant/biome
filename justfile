@@ -11,12 +11,12 @@ alias qt := test-quick
 # Installs the tools needed to develop
 install-tools:
 	cargo install cargo-binstall
-	cargo binstall cargo-insta cargo-nextest taplo-cli wasm-pack wasm-tools knope
+	cargo binstall cargo-insta cargo-nextest taplo-cli wasm-pack wasm-bindgen-cli wasm-opt wasm-tools knope
 
 # Upgrades the tools needed to develop
 upgrade-tools:
 	cargo install cargo-binstall --force
-	cargo binstall cargo-insta cargo-nextest taplo-cli wasm-pack wasm-tools knope --force
+	cargo binstall cargo-insta cargo-nextest taplo-cli wasm-pack wasm-bindgen-cli wasm-opt wasm-tools knope --force
 
 # Generate all files across crates and tools. You rarely want to use it locally.
 gen-all:
